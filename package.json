@@ -1,0 +1,27 @@
+{
+  "name": "tripplanner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergioviniciuss/tripplanner.git"
+  },
+  "author": "Sergio Lucena / Matheus Barone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergioviniciuss/tripplanner/issues"
+  },
+  "homepage": "https://github.com/sergioviniciuss/tripplanner#readme",
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
