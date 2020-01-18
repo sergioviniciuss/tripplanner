@@ -1,33 +1,33 @@
 module.exports = {
-  entry: './src/index.js',
+  entry: "./src/index.js",
   output: {
-    path: __dirname + '/dist',
-    publicPath: '/',
-    filename: 'bundle.js'
+    path: __dirname + "/public",
+    publicPath: "/",
+    filename: "bundle.js"
   },
   module: {
     rules: [
       {
         test: /\.(js)$/,
         exclude: /node_modules/,
-        use: ['babel-loader']
+        use: ["babel-loader"]
       },
       {
         test: /\.(sa|sc|c)ss$/,
-        use: ['style-loader', 'css-loader', 'sass-loader'],
+        use: ["style-loader", "css-loader", "sass-loader"]
       },
       {
         test: /\.(png|jpg|gif)$/,
-        use: ['url-loader']
+        use: ["url-loader"]
       }
     ]
   },
   resolve: {
-    extensions: ['*', '.js']
+    extensions: ["*", ".js"]
   },
   devServer: {
-    contentBase: './dist',
-    host: 'localhost',
+    contentBase: "./public",
+    host: "localhost",
     port: 3000
   }
 };
