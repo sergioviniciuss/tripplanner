@@ -16,6 +16,9 @@ html, body, #root {
 
 #root {
   padding: 0 20px;
+  display:flex;
+  width: 100%;
+  justify-content: center;
 }
 
 body {
@@ -25,6 +28,15 @@ body {
   background: rgb(243, 244, 245);
 }
 
+.wrapper {
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+}
+
 .is-hidden {
   display: none;
 }
@@ -32,5 +44,6 @@ body {
 ul {
     list-style-type:none;
 }
+
 
 `;
