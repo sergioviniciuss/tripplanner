@@ -1,4 +1,4 @@
-import { SIGN_IN, SIGN_OUT } from "../actions/types";
+import { SIGN_IN, SIGN_OUT } from "../../actionTypes";
 import { INITIAL_STATE } from "../selectors";
 
 export const authReducer = (state = INITIAL_STATE, action) => {
