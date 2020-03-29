@@ -13,6 +13,10 @@ const Button = styled.button`
   font-weight: bold;
   width: 100%;
   max-width: 330px;
+  a {
+    text-decoration: none;
+    color: #FF7F00;
+  }
 `;
 
 export default Button;
